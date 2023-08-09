@@ -1,0 +1,40 @@
+body {
+    border: none;
+    margin: 0;
+    background-color: #dafbf7;
+    color: #2f605d;
+}
+
+h1 {
+    color: #2f605d;
+    text-align: center;
+    margin-top: 2ch;
+    font-size: 2.5rem;
+}
+
+
+.square.black {
+    background-color: black;
+}
+
+.square.white {
+    background-color: white;
+}
+
+#gridContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4ch;    
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 4ch;
+}
+/* --text: #2f605d;
+--background: #dafbf7;
+--primary: #96f3e9;
+--secondary: #d1faf6;
+--accent: #1be4d0; */
