@@ -3,7 +3,9 @@ const reset = document.querySelector("#reset");
 
 // Create a webpage with a 16x16 grid of square divs.
 
-// function initializeGrid() {
+function initializeGrid() {
+        // remove all html from to #gridContainer
+        gridContainer.innerHTML = "";
 // Create 16 flex-container divs and add them to #gridContainer
     for (let containerIndex = 1; containerIndex <= 16; containerIndex++) {
         const container = document.createElement("div");
@@ -31,11 +33,11 @@ const reset = document.querySelector("#reset");
     gridContainer.appendChild(container);
     }
 
-// }
+}
 
-// initializeGrid();
+initializeGrid();
 
-
+reset.addEventListener("click", initializeGrid);
 
 // set up event listener on reset element. on click, set background color of square elements to white. Maybe rerun the initialization sequence above?
 
